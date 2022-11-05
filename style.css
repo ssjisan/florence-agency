@@ -1,0 +1,144 @@
+body {
+  font-family: "Poppins";
+}
+.desktop-body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #003430;
+  opacity: 0.8;
+}
+.active {
+  font-weight: 700;
+}
+.navbar-left {
+  position: absolute;
+}
+.navbar-right {
+  position: absolute;
+  right: 0px;
+}
+.top-dotted {
+  position: absolute;
+  top: -40px;
+  left: 520px;
+  transform: rotate(-90deg);
+}
+.left-dotted {
+  position: absolute;
+  left: 5px;
+  top: 379px;
+}
+.agency {
+  position: absolute;
+  left: 5px;
+  top: 745px;
+}
+.florence {
+  position: absolute;
+  right: 0px;
+  top: 76px;
+}
+.button-style {
+  padding: 12px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px 4px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  background-size: 150% 100%;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(90deg, #26eea0 0%, #03a5f4 100%);
+}
+.button-style:hover {
+  background-position: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.padding-top-64 {
+  padding-top: 64px;
+}
+.padding-bottom-64 {
+  padding-bottom: 64px;
+}
+/********************  Hero Section Start  ********************/
+.hero-image-container {
+  max-width: 746px;
+  width: 100%;
+  height: 795px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section-image {
+  max-width: 746px;
+  width: 100%;
+}
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hero-section-content h1 {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 86px;
+  color: #1a0707;
+}
+.hero-section-content p {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+/********************  Hero Section End  ********************/
+
+/********************  Our Services Start  ********************/
+.main-box {
+  background-color: #effdfb;
+}
+.services-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-subtitle {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 635px;
+  opacity: 0.6;
+}
+.desktop-h2 {
+  font-family: "Abril Fatface";
+}
+.we-do-card {
+  padding: 24px 12px;
+  background: #ffffff;
+  border-radius: 24px 8px 20px;
+  width: 306px;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.we-do-card:hover {
+  box-shadow: 0px 4px 40px rgba(5, 170, 238, 0.24);
+  opacity: 1;
+}
+.icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
