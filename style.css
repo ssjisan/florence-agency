@@ -41,7 +41,7 @@ body {
 }
 .button-style {
   padding: 12px 40px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
   border-radius: 20px 4px;
   color: #ffffff;
   font-weight: 600;
@@ -85,7 +85,6 @@ body {
   font-family: "Abril Fatface";
   font-weight: 400;
   font-size: 64px;
-  line-height: 86px;
   color: #1a0707;
 }
 .hero-section-content p {
@@ -164,12 +163,46 @@ body {
   .left-dotted {
     display: none;
   }
+  .hero-section-content h1 {
+    font-size: 48px;
+  }
+  .hero-section-content p {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+  }
 }
 @media screen and (max-width: 991px) {
+  .hero-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 @media screen and (max-width: 767px) {
+  .hero-section-content h1 {
+    font-size: 32px;
+  }
+  .hero-section-content p {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .hero-image-container {
+    margin-top: 64px;
+    height: 100%;
+  }
+  .button-style {
+    padding: 8px 32px;
+  }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 575px) {
+  .logo {
+    width: 100px;
+  }
 }
 @media screen and (max-width: 479px) {
   .navbar-left {
