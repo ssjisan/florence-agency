@@ -142,3 +142,47 @@ body {
   align-items: center;
   margin-bottom: 40px;
 }
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+  .navbar-left {
+    width: 25%;
+  }
+  .navbar-right {
+    width: 25%;
+  }
+  .florence {
+    width: 25%;
+  }
+  .agency {
+    width: 25%;
+  }
+  .top-dotted {
+    display: none;
+  }
+  .left-dotted {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 570px) {
+}
+@media screen and (max-width: 479px) {
+  .navbar-left {
+    display: none;
+  }
+  .navbar-right {
+    display: none;
+  }
+  .florence {
+    display: none;
+  }
+  .agency {
+    display: none;
+  }
+}
+/********************  Media Queries End  ********************/
